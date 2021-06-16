@@ -51,6 +51,7 @@ body{
     background-size: cover;
     background-position: center;
     width: 92.3vw;
+    height: 100vh;
     margin: 0px;
 
 }
@@ -266,6 +267,10 @@ height: 100vh;
     height: 90vh;
     width: 101vw;
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -295,8 +300,8 @@ height: 100vh;
 }
 
 #imgs{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border:10px double gold;
     border-radius: 40px;
     margin-right: 20px;
@@ -305,7 +310,7 @@ height: 100vh;
 
 #cont-prof{
     padding-top:70px;
-    padding-left: 1091px;
+    padding-left: 670px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     font-weight: bold;
